@@ -1,0 +1,3 @@
+[ ! -d node_modules ] && ( npm install grunt; npm install grunt-cli;npm install )
+[ ! -d bower_components ] && ( grunt init || grunt prod )
+npm start
